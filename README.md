@@ -12,9 +12,8 @@ Step 2. Add the dependency
 	        implementation 'com.github.Aqil92:MaterialDatePicker:1.0'
 	}
 	
-	
-	 Calendar cal = Calendar.getInstance();
-etdate.setOnClickListener(view -> {
+	Calendar cal = Calendar.getInstance();
+	etdate.setOnClickListener(view -> {
                             /*DatePickerDialog
                                     .newInstance(null, cal.get(Calendar.YEAR), cal.get(Calendar.MONTH), cal.get(Calendar.DATE))
                                     .show(getFragmentManager(), null);*/
